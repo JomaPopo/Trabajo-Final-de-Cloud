@@ -1,0 +1,12 @@
+
+#main-header {
+    background-color: var(--color1);
+    color: var(--color-blanco);
+    padding: 20px 0;
+   
+}
+
+#main-header p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
