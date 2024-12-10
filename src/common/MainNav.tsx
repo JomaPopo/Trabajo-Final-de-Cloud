@@ -34,9 +34,8 @@ const MainNav: React.FC<MainNavProps> = ({ isAuthenticated, username }): JSX.Ele
                                 <li className="nav-item">
                                     <span className="nav-link disabled">Welcome, {username || "User"}</span>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/logout">Logout</Link>
-                                </li>
+                                
+                               
                             </>
                         )}
                     </ul>
